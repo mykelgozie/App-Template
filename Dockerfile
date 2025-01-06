@@ -13,6 +13,7 @@ COPY ["App.Core/App.Core.csproj", "App.Core/"]
 COPY ["App.Data/App.Data.csproj", "App.Data/"]
 COPY ["App.Models/App.Models.csproj", "App.Models/"]
 COPY ["App.Dtos/App.Dtos.csproj", "App.Dtos/"]
+COPY ["App.Utitlities/App.Utitlities.csproj", "App.Utitlities/"]
 RUN dotnet restore "./App/./App.csproj"
 COPY . .
 WORKDIR "/src/App"

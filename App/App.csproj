@@ -21,6 +21,7 @@
     <ProjectReference Include="..\App.Data\App.Data.csproj" />
     <ProjectReference Include="..\App.Dtos\App.Dtos.csproj" />
     <ProjectReference Include="..\App.Models\App.Models.csproj" />
+    <ProjectReference Include="..\App.Utitlities\App.Utitlities.csproj" />
   </ItemGroup>
 
 </Project>
